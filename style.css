@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100vh;
+    width: 100vw;
+}
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('Mona-Sans.woff2') format('woff2 supports variations'),
+      url('Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+  }
+  
+  html {
+    font-family: 'Mona Sans';
+  }
+.page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color:#814442;
+    display: flex;
+    /* padding: 3% 10%; */
+}
+
+.page1 >.left {
+    height: 100%;
+    width: 36%;
+    background-color: yellow;
+    background-image: url(https://images.unsplash.com/photo-1487811566627-ecd6321dfd2b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.page1 >.right {
+    height: 100%;
+    width: 64%;
+    background-color: #dfcfb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10%; */
+    flex-direction: column;
+
+    
+}
+/* .page1 .design2{
+position: absolute;
+height: 65%;
+z-index: 0;
+rotate: 37deg;
+bottom: 0px;
+} */
+
+.Rinner {
+   background-color: white;
+   height: 80%;
+   width: 75%;
+   padding: 5%;
+   border-radius: 25px;
+   /* z-index: 1; */
+
+}
+input{
+    /* padding: 10px 10px; */
+    border-radius: 7px;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    /* width: 40%; */
+    
+}
+.right > p {
+    text-align: left;
+    width: 76%;
+    margin-top: 1.5%;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.right .Rinner button {
+padding: 15px 230px 15px 233px;
+font-size: 22px;
+font-weight: 650;
+border-radius: 6px;
+background-color: #597952;
+color: white;
+border: transparent; 
+}
+.Rinner .nameemail{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Rinner input {
+padding: 15px 95px 15px 20px;
+font-weight: 500;
+}
+.page1 .right .Rinner  h1 {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.Rinner .amount {
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .Rinner .amount Donation1  */
+.Rinner .company-name {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: medium;
+   /* font-weight: ; */
+}
+
+.Rinner .company-name::placeholder {
+   text-align: center; /* Centers the text horizontally */
+}
+
+
+.Rinner .company-name::placeholder {
+   text-align: center; /* Centers the text horizontally */
+}
+
+.Rinner p{
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+
+
